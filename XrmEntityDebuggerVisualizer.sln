@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XrmEntityDebuggerVisualizer", "XrmEntityDebuggerVisualizer\XrmEntityDebuggerVisualizer.csproj", "{AB202853-8F3C-466E-8AA4-44FB4459B72A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7A8DD4C9-0B67-4756-86DC-FE268788A906}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InteractiveTester", "Tests\InteractiveTester\InteractiveTester.csproj", "{48258C62-A300-48DA-BD8E-C0115BA4CC14}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{AB202853-8F3C-466E-8AA4-44FB4459B72A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB202853-8F3C-466E-8AA4-44FB4459B72A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB202853-8F3C-466E-8AA4-44FB4459B72A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48258C62-A300-48DA-BD8E-C0115BA4CC14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48258C62-A300-48DA-BD8E-C0115BA4CC14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48258C62-A300-48DA-BD8E-C0115BA4CC14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48258C62-A300-48DA-BD8E-C0115BA4CC14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{48258C62-A300-48DA-BD8E-C0115BA4CC14} = {7A8DD4C9-0B67-4756-86DC-FE268788A906}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {749328FE-D547-466B-8359-66EF2312AFB3}
